@@ -1,0 +1,34 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+canvas {
+    position: absolute;
+}
+
+.unity-window{
+    position: absolute;
+    z-index: -1;
+}
+
+.fullscreenButton{
+    border-radius: 100px;
+    border-color: transparent;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    position: absolute;
+    top: 8px;
+    left: 96vw;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+}
